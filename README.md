@@ -5,7 +5,7 @@
 
 Скачать Node.js можно по ссылке (https://nodejs.org/) выбираем версию не ниже 14.0.0
 
-Для установки npm необходимо прописать в консоли `npm install npm@latest -g` (https://docs.npmjs.com/downloading-and-installing-packages-globally)
+Для установки npm необходимо прописать в консоли `npm install npm@latest -g` (https://docs.npmjs.com/downloading-and-installing-packages-globally) версия не ниже 5.0.0
 
 Проверить версию можно с помощью флага -v
 
@@ -16,9 +16,9 @@
 
 # Запуск приложения
 
-### Выполняем команду `npm install`
+### `npm install`
 
-В первую очередь необходимости установить зависимости node_modules для проекта.
+Устанавливает зависимости node_modules необходимые для проекта.
 
 ### `npm start`
 
