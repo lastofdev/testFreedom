@@ -1,0 +1,35 @@
+.button {
+    height: 36px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+
+    &:hover {
+        opacity: 0.7;
+    }
+
+    &_red {
+        background: red;
+
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+
+    &_gray {
+        background: gray;
+    }
+
+    &_long {
+        width: 240px;
+    }
+
+    &_short {
+        padding: 0 10px;
+    }
+
+}
