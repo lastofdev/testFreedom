@@ -1,8 +1,6 @@
-# Test task Freedom Finance
-
 # Настройка окружения
 
-Для запуска проекта понадобится настроить окружения -  Node.js и npm. 
+Для запуска проекта понадобится настроить окружениe c помощью Node.js и npm. 
 Если у вас уже все установлено, то можно сразу переходить к шагу запуск приложения.
 
 Скачать Node.js можно по ссылке (https://nodejs.org/) выбираем версию не ниже 14.0.0
@@ -29,7 +27,7 @@
 
 # Дополнительная информация
 
-# Information about Create React App
+## Information about Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
