@@ -3,7 +3,7 @@ import classnames from 'classnames';
 
 type Props = {
     theme: 'red' | 'gray';
-    size?: 'long' | 'short';
+    size: 'long' | 'short';
     children: string;
     onClick?: () => void;
 }

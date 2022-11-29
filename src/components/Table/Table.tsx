@@ -9,7 +9,6 @@ type ItemTable = {
 
 type Props = {
     data: ItemTable[];
-    onClick?: () => void;
 }
 
 export function Table(props: Props): JSX.Element {
