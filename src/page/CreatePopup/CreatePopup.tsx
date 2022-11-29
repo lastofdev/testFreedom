@@ -11,13 +11,12 @@ export function CreatePopup(props: Props): JSX.Element {
 
     const [date, setDate] = React.useState<string>('')
     const [title, setTitle] = React.useState<string>('')
-    const [price, setPrice] = React.useState<number>(0)
+    const [price, setPrice] = React.useState<number>()
 
     function handleSubmit() {
         const data = localStorage.getItem('data');
 
         if (data) {
-
             const arr = JSON.parse(data);
 
             const newItem = {
@@ -25,14 +24,12 @@ export function CreatePopup(props: Props): JSX.Element {
                 title: title,
                 price: price,
                 date: date,
-
             }
 
             localStorage.setItem('data', JSON.stringify([...arr, newItem]))
         }
 
         props.onClose()
-
     }
 
     return (
